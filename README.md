@@ -49,3 +49,4 @@ make clean && make package
 # knaso
 # knaso
 /Users/devzkn/code/knaso/2018aso/ASO
+dpkg -r com.niangao.aso 
