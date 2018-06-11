@@ -1,0 +1,9 @@
+#!/bin/sh
+#这个文件最后一行必须留空
+  # 为了使AppStore 正常工作
+	killall -9 appstored
+	killall -9  itunesstored
+	killall -9 itunescloudd
+	killall -9 akd  
+	killall -9 storebookkeeperd
+	killall -9 SpringBoard

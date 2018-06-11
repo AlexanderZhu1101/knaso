@@ -1,0 +1,11 @@
+#!/bin/sh
+#这个文件最后一行必须留空
+function kill_all_process() {
+    echo "killall done"
+# //  根据NGASO.plist 设置需要重启的进程
+    killall -9 SpringBoard
+}
+# 杀掉需要hook的进程
+echo "[postinst] kill_all_process ing ..."
+kill_all_process
+

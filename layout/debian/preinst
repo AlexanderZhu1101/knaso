@@ -1,0 +1,23 @@
+#!/bin/sh
+#这个文件最后一定要留空行
+
+# debian/preinst    安装前执行脚本
+# 在Deb包文件解包之前，将会运行该脚本。许多“preinst”脚本的任务是停止作用于待升级软件包的服务，直到软件包安装或升级完成。
+
+
+function knclean {
+	echo "[preinstall]  rm -rf"
+
+    # echo "rm -rf TouchSprite"
+    # rm -rf /private/var/mobile/Media/TouchSprite/lua/
+    # rm -rf /Library/MobileSubstrate/DynamicLibraries/SBLockScreenViewController*
+}
+knclean
+
+
+
+
+
+
+
+
