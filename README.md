@@ -46,7 +46,6 @@ make clean && make package
   
  
 # knaso
-# knaso
-# knaso
-/Users/devzkn/code/knaso/2018aso/ASO
-dpkg -r com.niangao.aso 
+>* pwd: /Users/devzkn/code/knaso/2018aso/ASO
+
+>*  `dpkg -r com.niangao.aso`
